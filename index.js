@@ -1,16 +1,16 @@
 function usage () {/*
-    Usage
 
-    bonjour-vlc --host=127.0.0.1 --port=8088 --type=[http/tcp]
+Usage
 
-    Options
+  bonjour-vlc --host=127.0.0.1 --port=8088 --type=[http/tcp]
 
-    --host | -H     Host which vlc listens
-    --port | -P     Port which vlc listens
-    --type | -T     Type of interface provided by the vlc instance
-                    One of http or tcp
-    --verbose | -v  Enable verbosity pass in the module list to debug. 
+Options
 
+  --host | -H     Host which vlc listens
+  --port | -P     Port which vlc listens
+  --type | -T     Type of interface provided by the vlc instance
+                  One of http or tcp
+  --verbose | -v  Enable verbosity pass in the module list to debug.
 */}
 var pkg   = require('./package.json')
 var argv  = require('minimist')(process.argv.slice(2));
