@@ -11,6 +11,10 @@ Options
   --type | -T     Type of interface provided by the vlc instance
                   One of http or tcp
   --verbose | -v  Enable verbosity pass in the module list to debug.
+
+Examples
+  bonjour-vlc -H 127.0.0.1 -P 8088 -T rc
+  bonjour-vlc -H 127.0.0.1 -P 8088 -T http
 */}
 var pkg   = require('./package.json')
 var argv  = require('minimist')(process.argv.slice(2));
