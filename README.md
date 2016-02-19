@@ -1,6 +1,6 @@
 # bonjour-vlc
 
-A node server announce vlc with bonjour
+A node server to announce vlc with bonjour
 
 # Install
 
@@ -15,24 +15,24 @@ ctrl+c to quit
 
 # Command line
 
-  bonjour-vlc 1.0.0
-  vlc remote control over bonjour
+    bonjour-vlc 1.0.0
+    vlc remote control over bonjour
 
-  Usage
+    Usage
 
-    bonjour-vlc --host=127.0.0.1 --port=8088 --type=[http/tcp]
+      bonjour-vlc --host=127.0.0.1 --port=8088 --type=[http/tcp]
 
-  Options
+    Options
 
-    --host | -H     Host which vlc listens
-    --port | -P     Port which vlc listens
-    --type | -T     Type of interface provided by the vlc instance
-                    One of http or tcp
-    --verbose | -v  Enable verbosity pass in the module list to debug.
+      --host | -H     Host which vlc listens
+      --port | -P     Port which vlc listens
+      --type | -T     Type of interface provided by the vlc instance
+                      One of http or tcp
+      --verbose | -v  Enable verbosity pass in the module list to debug.
 
-  Examples
-    bonjour-vlc -H 127.0.0.1 -P 8088 -T rc
-    bonjour-vlc -H 127.0.0.1 -P 8088 -T http
+    Examples
+      bonjour-vlc -H 127.0.0.1 -P 8088 -T rc
+      bonjour-vlc -H 127.0.0.1 -P 8088 -T http
 
 # read more
 
