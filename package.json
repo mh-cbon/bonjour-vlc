@@ -1,0 +1,31 @@
+{
+  "name": "bonjour-vlc",
+  "version": "1.0.0",
+  "description": "vlc remote control over bonjour",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mh-cbon/bonjour-vlc.git"
+  },
+  "keywords": [
+    "vcl",
+    "bonjour",
+    "remote",
+    "control"
+  ],
+  "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mh-cbon/bonjour-vlc/issues"
+  },
+  "homepage": "https://github.com/mh-cbon/bonjour-vlc#readme",
+  "dependencies": {
+    "@maboiteaspam/set-verbosity": "^2.0.3",
+    "@maboiteaspam/show-help": "^3.0.0",
+    "bonjour": "^3.2.0",
+    "minimist": "^1.2.0"
+  }
+}
