@@ -7,7 +7,7 @@ A node server to announce vlc with bonjour
 ```
 git clone https://github.com/mh-cbon/bonjour-vlc.git
 cd bonjour-vlc
-npm i -g
+npm i . -g
 bonjour-vlc -H 127.0.0.1 -P 8088 -T rc
 ...
 ctrl+c to quit
@@ -16,7 +16,7 @@ ctrl+c to quit
 # Command line
 
     bonjour-vlc 1.0.0
-    vlc remote control over bonjour
+    announce vlc remote control with bonjour
 
     Usage
 

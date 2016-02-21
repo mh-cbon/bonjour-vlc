@@ -4,7 +4,7 @@
   "description": "vlc remote control over bonjour",
   "main": "index.js",
   "bin": {
-    "bonjour-vlc": "index.js"
+    "bonjour-vlc": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
