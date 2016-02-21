@@ -1,5 +1,5 @@
 {
-  "name": "bonjour-vlc",
+  "name": "@mh-cbon/bonjour-vlc",
   "version": "1.0.0",
   "description": "vlc remote control over bonjour",
   "main": "index.js",
