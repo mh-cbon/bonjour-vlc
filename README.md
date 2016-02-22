@@ -36,6 +36,7 @@ ctrl+c to quit
 
 # read more
 
+- https://github.com/videolan/vlc/blob/master/share/lua/http/requests/README.txt
 - https://github.com/watson/bonjour
 - https://n0tablog.wordpress.com/2009/02/09/controlling-vlc-via-rc-remote-control-interface-using-a-unix-domain-socket-and-no-programming/
 - https://wiki.videolan.org/Documentation:Play_HowTo/Advanced_Use_of_VLC#RC_and_RTCI
