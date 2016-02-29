@@ -39,3 +39,9 @@ var bonjour = require('bonjour')()
 
 // advertise the vlc server
 bonjour.publish({ name: 'VLC Server ' + type, type: type, port: port, host: host })
+
+var tearDown = function (then) {
+  bonjour.destroy();
+}
+process.on('beforeExit', tearDown)
+process.on('SIGINT', tearDown)
